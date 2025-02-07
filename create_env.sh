@@ -2,8 +2,8 @@
 
 # source $(conda info --base)/etc/profile.d/conda.sh
 
-# conda create -y -n hyperoct python=3.8
-# conda activate hyperoct
+conda create -y -n adatensor python=3.8
+conda activate adatensor
 
 
 conda install -y -c anaconda libgcc-ng=9
