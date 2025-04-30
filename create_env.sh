@@ -34,6 +34,10 @@ conda install -y -c dlr-sc freeimageplus
 
 git submodule update --init --recursive --jobs 0
 
+cd saiga_patch
+sh saiga_patch.sh
+cd ..
+
 mkdir External
 git clone git@github.com:google/or-tools.git
 cd or-tools
